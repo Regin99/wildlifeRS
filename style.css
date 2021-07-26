@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+.centered_content {
+  width: 1440px;
+  margin: 0 auto;
+}
+/* Hero */
+.hero {
+  height: 742px;
+  padding: 19px 120px;
+  background-image: url(assets/bgmain.png);
+  background-color: #02160b;
+  display: flex;
+  flex-direction: column;
+}
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo_icon {
+  margin-right: 15px;
+}
+.logo_name {
+  color: #f7f7f7;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 40%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 23px;
+  color: #f7f7f7;
+}
+nav li {
+  padding-top: 10px;
+}
+nav li:hover {
+  cursor: pointer;
+}
+.blog:hover {
+  color: #cd6326;
+}
+.contacts:hover {
+  color: #cd6326;
+}
+.blog:active {
+  color: #8f5613;
+}
+.contacts:active {
+  color: #8f5613;
+}
+
+.sign_in {
+  padding: 13px 20px 5px 25px;
+  border: 2px solid #cd6326;
+  border-radius: 5px;
+}
+.sign_in:hover {
+  cursor: pointer;
+  background-color: #cd6326;
+}
+.sign_in:active {
+  cursor: pointer;
+  border-color: #8f5613;
+  background-color: #8f5613;
+}
+/*survival*/
+.survival {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 124px;
+  width: 24%;
+  align-items: flex-start;
+}
+.sign {
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #cd6326;
+}
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #f7f7f7;
+  margin-top: 56px;
+  line-height: 27px;
+}
+.donate_btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  text-align: center;
+  padding: 16px 42px 17px 42px;
+  margin-top: 47px;
+  border-radius: 5px;
+  background-color: #cd6326;
+  color: #f7f7f7;
+}
+.donate_btn:hover {
+  cursor: pointer;
+  border-color: #e39128;
+  background-color: #e39128;
+}
+.donate_btn:active {
+  border-color: #8f5613;
+  background-color: #8f5613;
+}
+/* main */
+main {
+  height: 1368px;
+  background-color: #cccccc;
+  display: flex;
+  flex-direction: column;
+}
+.latest_articles {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  margin-top: 121px;
+  color: #333333;
+}
+.news {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 20px;
+  color: #666666;
+}
+/* wheel */
+.wheel {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 120px;
+  align-items: center;
+  text-align: center;
+}
+.wheel h4 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 35px;
+  color: #f7f7f7;
+  position: relative;
+  top: 248px;
+}
+.wheel p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  color: #f7f7f7;
+  position: relative;
+  top: 257px;
+}
+.deer {
+  cursor: pointer;
+  width: 300px;
+  height: 360px;
+  background-image: url(assets/deer.jpg);
+}
+.squirrel {
+  cursor: pointer;
+  width: 300px;
+  height: 360px;
+  background-image: url(assets/squirrel.jpg);
+}
+.bird {
+  cursor: pointer;
+  width: 300px;
+  height: 360px;
+  background-image: url(assets/bird.jpg);
+}
+.left_ar:hover {
+  cursor: pointer;
+}
+.left_ar:active {
+  cursor: pointer;
+}
+.right_ar:hover {
+  cursor: pointer;
+}
+.right_ar:active {
+  cursor: pointer;
+}
+.get_notified_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 118px;
+}
+.get_notified {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;
+}
+form {
+  padding: 60px;
+}
+.input {
+  width: 540px;
+  height: 60px;
+  margin: -5px;
+  border: 1px solid #333333;
+  background-color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: #666666;
+}
+.input:hover {
+  cursor: pointer;
+}
+input::placeholder {
+  padding: 17px;
+}
+.submit {
+  width: 121px;
+  height: 62px;
+  background-color: #cd6326;
+  border-color: #cd6326;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: #f7f7f7;
+  border: 1px solid #cd6326;
+  border-radius: 0px 5px 5px 0px;
+}
+.submit:hover {
+  cursor: pointer;
+  border-color: #e39128;
+  background-color: #e39128;
+}
+.submit:active {
+  cursor: pointer;
+  border-color: #8f5613;
+  background-color: #8f5613;
+}
+/* footer */
+footer {
+  height: 359px;
+  padding: 0px 120px;
+  background-image: url(assets/bgfooter.jpg);
+  background-color: #181617;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 23px;
+  color: #f7f7f7;
+}
+.footer_nav li:hover {
+  cursor: pointer;
+  color: #cd6326;
+}
+.footer_nav li:active {
+  cursor: pointer;
+  color: #8f5613;
+}
+.articles {
+  margin-left: 40px;
+  padding-right: 40px;
+}
+.about {
+  padding: 45px;
+  margin-right: 15px;
+}
+.more {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.footer_links {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_links div {
+  width: 40px;
+  height: 40px;
+}
+.fb {
+  background-image: url(assets/fb.svg);
+}
+.inst {
+  background-image: url(assets/inst.svg);
+}
+.pin {
+  background-image: url(assets/pin.svg);
+}
+.tg {
+  background-image: url(assets/tg.svg);
+}
+/* links hovers/actives */
+.fb:hover {
+  cursor: pointer;
+  color: #cd6326;
+}
+.inst:hover {
+  cursor: pointer;
+  color: #cd6326;
+}
+.pin:hover {
+  cursor: pointer;
+  color: #cd6326;
+}
+.tg:hover {
+  cursor: pointer;
+  color: #cd6326;
+}
+.fb:active {
+  cursor: pointer;
+  color: #8f5613;
+}
+.inst:active {
+  cursor: pointer;
+  color: #8f5613;
+}
+.pin:active {
+  cursor: pointer;
+  color: #8f5613;
+}
+.tg:active {
+  cursor: pointer;
+  color: #8f5613;
+}
